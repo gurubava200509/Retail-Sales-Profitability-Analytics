@@ -39,4 +39,4 @@ Transformed raw e-commerce data into actionable business insights through data a
 
 ## Dashboard Preview
 
-![Sales Dashboard](dashboard-screenshots/sales_dashboard.png)
+![Sales Dashboard](sales_dashboard.png)
