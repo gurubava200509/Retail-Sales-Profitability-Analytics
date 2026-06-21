@@ -118,13 +118,13 @@ The dashboard provides an interactive view of sales performance and delivery ope
 
 **Dashboard:** `dashboard.png`
 
-### Project Files
+## Project Files
 
-📊 **Power BI Dashboard:** `ECommerce_Dashboard.pbix`
+📊 [Power BI Dashboard](./Ecommerce_performance_analysis.pbix)
 
-📓 **EDA Notebook:** `ecommerce_eda.ipynb`
+📓 [EDA Notebook](./ecommerce_eda.ipynb)
 
-🗄️ **SQL Analysis:** `delivery_performance_analysis.sql`
+🗄️ [SQL Analysis](./delivery_performance_analysis.sql)
 
 ### Dashboard Story
 
