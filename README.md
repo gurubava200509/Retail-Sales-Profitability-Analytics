@@ -1,10 +1,10 @@
-# Retail Sales & Profitability Analytics
+# E-Commerce Sales & Delivery Performance Analytics
 
 ## Project Overview
 
 This project analyzes e-commerce sales and delivery operations using Python, SQL, and Power BI. The objective was to evaluate order performance, delivery efficiency, payment behavior, and regional revenue distribution by transforming raw transactional data into actionable business insights.
 
-The project follows a complete analytics workflow, including data cleaning, exploratory data analysis (EDA), SQL-based reporting, and interactive dashboard development.
+The project follows a complete analytics workflow, including data cleaning, exploratory data analysis (EDA), SQL-based reporting, KPI development, and interactive dashboard creation.
 
 ---
 
@@ -79,7 +79,7 @@ Data preparation was performed using Python (Pandas) to ensure data quality and 
   * customer_id (Orders ↔ Customers)
   * order_id (Orders ↔ Order Items)
   * order_id (Orders ↔ Payments)
-* Created a consolidated analytical dataset for reporting and dashboard development.
+* Created a consolidated analytical dataset containing 114,671 rows and 27 columns for analysis and reporting.
 
 ### Feature Engineering
 
@@ -114,7 +114,7 @@ Created analytical features including:
 
 ## SQL Analysis
 
-SQL was used to generate operational KPIs, monitor delivery performance, and analyze business trends across orders, customers, and fulfillment operations.
+SQL was used to generate operational KPIs, monitor delivery performance, analyze customer activity, and evaluate business trends across orders and fulfillment operations.
 
 ### Analysis Performed
 
@@ -138,7 +138,7 @@ GROUP BY order_month
 ORDER BY order_month;
 ```
 
-This query was used to track monthly order growth and identify business demand trends throughout the analysis period.
+This query was used to monitor monthly order volume trends and evaluate business growth patterns throughout the analysis period.
 
 ---
 
@@ -146,31 +146,46 @@ This query was used to track monthly order growth and identify business demand t
 
 The dashboard provides an interactive view of sales performance, delivery efficiency, payment behavior, and regional revenue contribution.
 
-It enables stakeholders to monitor operational KPIs, identify growth opportunities, evaluate fulfillment performance, and support data-driven decision-making.
+It enables stakeholders to monitor key business KPIs, evaluate operational performance, identify growth opportunities, and support data-driven decision-making.
+
+### Dashboard KPIs
+
+* Total Revenue: ₹19.70M
+* Total Orders: 96.2K
+* Average Delivery Days: 11.8
+* Late Delivery Rate: 6.3%
 
 ### Dashboard Preview
 
-![Dashboard](dashboard.png)
+![Dashboard](ecommerce_dashboard.png)
 
 ---
 
 ## Project Files
 
 ### Power BI Dashboard
-Interactive dashboard containing KPIs, sales trends, delivery performance metrics, payment behavior analysis, and regional revenue insights.
 
-[retail_sales_dashboard.pbix](./retail_sales_dashboard.pbix)
+Interactive Power BI dashboard containing KPIs, sales trends, delivery performance metrics, payment behavior analysis, and regional revenue insights.
+
+[ecommerce_sales_delivery_dashboard.pbix](./ecommerce_sales_delivery_dashboard.pbix)
 
 ### EDA Notebook
+
 Python notebook covering data cleaning, feature engineering, exploratory analysis, and dataset preparation.
 
-[retail_sales_analysis.ipynb](./retail_sales_analysis.ipynb)
+[ecommerce_sales_delivery_analysis.ipynb](./ecommerce_sales_delivery_analysis.ipynb)
 
 ### SQL Analysis
-Business-focused SQL queries used for KPI reporting, operational analysis, and performance monitoring.
 
-[retail_sales_analysis.sql](./retail_sales_analysis.sql)
+Business-focused SQL queries used for KPI reporting, operational analysis, trend monitoring, and performance evaluation.
 
+[ecommerce_sales_delivery_analysis.sql](./ecommerce_sales_delivery_analysis.sql)
+
+### Dashboard Image
+
+Dashboard preview used within the project documentation.
+
+[ecommerce_dashboard.png](./ecommerce_dashboard.png)
 
 ---
 
@@ -201,4 +216,4 @@ Business-focused SQL queries used for KPI reporting, operational analysis, and p
 
 ## Conclusion
 
-This project demonstrates an end-to-end data analytics workflow using Python, SQL, and Power BI. Through data cleaning, exploratory analysis, SQL reporting, and dashboard development, the project evaluates sales performance and delivery efficiency while transforming raw transactional data into actionable business insights.
+This project demonstrates an end-to-end data analytics workflow using Python, SQL, and Power BI. Through data cleaning, exploratory analysis, SQL reporting, KPI development, and dashboard creation, the project evaluates e-commerce sales performance, delivery efficiency, payment behavior, and regional revenue distribution while transforming raw transactional data into actionable business insights.
