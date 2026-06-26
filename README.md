@@ -1,4 +1,4 @@
-# E-Commerce-Sales-Analytics
+# # E-Commerce Sales Analytics
 
 ## Project Overview
 
@@ -211,6 +211,26 @@ Dashboard preview used within the project documentation.
 
 * Revenue contribution was concentrated across a limited number of states.
 * São Paulo (SP) generated the highest revenue contribution, highlighting its importance to overall business performance.
+
+---
+
+## Repository Structure
+
+```text
+E-Commerce-Sales-Analytics/
+│
+├── README.md
+├── ecommerce_dashboard.png
+├── ecommerce_sales_analysis.ipynb
+├── ecommerce_sales_analysis.sql
+└── ecommerce_sales_dashboard.pbix
+```
+---
+
+## Project Link
+
+🔗 GitHub Repository:  
+https://github.com/gurubava200509/E-Commerce-Sales-Analytics
 
 ---
 
